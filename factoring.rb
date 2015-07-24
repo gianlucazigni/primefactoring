@@ -1,7 +1,7 @@
 def factor(num)
 factors = Array.new
 x = 2
-	while num != 1
+	until num != 1
 		if num < 0
 			factors << -1
 			num *= -1
