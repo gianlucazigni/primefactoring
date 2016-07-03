@@ -1,14 +1,13 @@
 def factor(num)
 factors = Array.new
 x = 2
-	until num != 1
+	until num == 1
 		if num < 0
 			factors << -1
 			num *= -1
 		elsif num % x == 0
 			num /= x
 			factors << x
-			x += 1
 			x = 2
 		else
 			x += 1
