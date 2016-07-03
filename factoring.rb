@@ -8,7 +8,6 @@ x = 2
 		elsif num % x == 0
 			num /= x
 			factors << x
-			x += 1
 			x = 2
 		else
 			x += 1
